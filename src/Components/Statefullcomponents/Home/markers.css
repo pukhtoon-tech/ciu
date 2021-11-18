@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "AvenirLTProLight";
+  src: local("AvenirLTProLight"),
+    url(/src/fonts/AvenirLTProLight.woff) format("woff");
+}
+.same-width {
+  width: 30%;
+}
+.home-icon-text {
+  top: 14%;
+  left: -10%;
+}
+
+.orientation-icon-text {
+  top: 23%;
+  left: 11.5%;
+}
+.extracurriculars-icon-text {
+  top: 25.5%;
+  left: 35%;
+}
+
+.cafeteria-icon-text {
+  top: 30.5%;
+  left: 48.5%;
+}
+
+.residance-icon-textt {
+  top: 5%;
+  right: 4%;
+}
+.library-icon-text {
+  top: 14%;
+  right: 24%;
+}
+.administrative-icon-text {
+  bottom: 19%;
+  left: 28%;
+}
+.classroom-icon-text {
+  bottom: 14%;
+  right: 17.5%;
+}
+.share-icon-section {
+  right: 15%;
+  bottom: 5%;
+}
+.fa-share-canvas {
+  background: #6683a0;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section > a > span {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 0.2rem 2.4rem;
+  border-radius: 25px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.red-bg > a > span {
+  background-color: rgb(237, 28, 37, 0.8);
+}
+.home-section > a > img {
+  width: 7%;
+}
+
+.canvas-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.canvas-main-section {
+  position: relative;
+}
+
+@media only screen and (min-device-width: 319px) and (max-device-width: 375px) {
+  .home-section > a > span {
+    font-size: 0.3rem;
+    padding: 0.2rem 0.2rem;
+  }
+  .fa-share-canvas {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 480px) {
+  .same-width {
+    width: 30%;
+  }
+  .fa-share-canvas {
+    height: 30px;
+  width: 30px;
+  }
+
+  .home-icon-text {
+    top: 3%;
+    left: -9%;
+  }
+  .orientation-icon-text {
+    top: 15%;
+    left: 11.5%;
+  }
+
+  .extracurriculars-icon-text {
+    top: 18%;
+    left: 35%;
+  }
+  .cafeteria-icon-text {
+    top: 28.5%;
+    left: 48.5%;
+  }
+
+  .residance-icon-textt {
+    top: -4%;
+    right: 4%;
+  }
+  .library-icon-text {
+    top: 5%;
+    right: 24%;
+  }
+
+  .home-section > a > span {
+    font-size: 0.4rem;
+    padding: 0.2rem 0.4rem;
+  }
+  .home-section > a > img {
+    width: 6%;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .same-width {
+    width: 30%;
+  }
+
+  .home-icon-text {
+    top: 10%;
+    left: -10%;
+  }
+
+  .orientation-icon-text {
+    top: 20%;
+    left: 11.5%;
+  }
+
+  .extracurriculars-icon-text {
+    top: 23%;
+    left: 36%;
+  }
+  .cafeteria-icon-text {
+    top: 28.5%;
+    left: 48.5%;
+  }
+  .residance-icon-textt {
+    top: 3%;
+    right: 4%;
+  }
+
+  .library-icon-text {
+    top: 10%;
+    right: 24%;
+  }
+
+  .home-section > a > span {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.6rem;
+  }
+  .home-section > a > img {
+    width: 6%;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .home-section > a > span {
+    font-size: 0.6rem;
+    padding: 0.2rem 1rem;
+  }
+  .home-section > a > img {
+    width: 6%;
+  }
+
+  .same-width {
+    width: 40%;
+  }
+  .home-icon-text {
+    top: 10%;
+    left: -14%;
+  }
+  .orientation-icon-text {
+    top: 20%;
+    left: 6.5%;
+  }
+  .extracurriculars-icon-text {
+    top: 22%;
+    left: 30%;
+  }
+  .cafeteria-icon-text {
+    top: 28.5%;
+    left: 43.5%;
+  }
+
+  .residance-icon-textt {
+    top: 3%;
+    right: -1%;
+  }
+  .library-icon-text {
+    top: 10%;
+    right: 19%;
+  }
+  .administrative-icon-text {
+    bottom: 19%;
+    left: 23%;
+  }
+  .classroom-icon-text {
+    bottom: 14%;
+    right: 12.5%;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1250px) {
+  .home-section > a > span {
+    font-size: 1rem;
+    padding: 0.2rem 1.4rem;
+  }
+  .home-section > a > img {
+    width: 6%;
+  }
+  .same-width {
+    width: 40%;
+  }
+  .home-icon-text {
+    top: 13%;
+    left: -14%;
+  }
+  .orientation-icon-text {
+    top: 20%;
+    left: 6.5%;
+  }
+  .extracurriculars-icon-text {
+    top: 22%;
+    left: 30%;
+  }
+  .cafeteria-icon-text {
+    top: 28.5%;
+    left: 43.5%;
+  }
+
+  .library-icon-text {
+    top: 10%;
+    right: 19%;
+  }
+  .residance-icon-textt {
+    top: 1%;
+    right: -1%;
+  }
+  .administrative-icon-text {
+    bottom: 19%;
+    left: 23%;
+  }
+  .classroom-icon-text {
+    bottom: 14%;
+    right: 12.5%;
+  }
+}

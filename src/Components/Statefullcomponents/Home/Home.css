@@ -1,0 +1,141 @@
+.inner-modal-content > a >  h1 {
+    text-transform: uppercase;
+    color: #8ac24b;
+}
+
+.inner-modal-content > p {
+    font-weight: 500;
+
+}
+
+.scenario-btn {
+    text-transform: capitalize;
+    background-color: #3b5368;
+    border: none;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.previous > span {
+    text-transform: uppercase;
+    color: #3b5368;
+}
+.modal-height {
+    height: 70vh;
+}
+
+.home-modal-dialog .modal-dialog {
+    margin: 0 !important;
+    margin-top: 7.7rem !important;
+}
+.home-modal-dialog .modal-dialog .modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.player {
+    margin: 0 auto;
+    position: relative;
+}
+.player .video-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.player .video {
+    width: 100%;
+    display: block;
+}
+.player .play-pause {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 68, 80, .5);
+    top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+.player .play-pause:hover {
+    opacity: 1;
+}
+.player .play-pause .hide {
+    opacity: 0;
+    pointer-events: none;
+}
+.player .play-pause .button {
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.player .play-pause .button .button-bg {
+    fill: #8ac24b;
+}
+.player .play-pause .button .button-icon {
+    fill: #ffffff;
+}
+.player .seeker {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+.player .seeker .seeker-line {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+.player .seeker .seeker-line.bg {
+    background-color: rgba(255, 255, 255, .5);
+}
+.player .seeker .seeker-line.mover {
+    background-color: #76afce;
+    transform: scaleX(0);
+    transform-origin: top left;
+}
+.player .seeker .seeker-line.current {
+    transform: scaleX(0);
+    transform-origin: top left;
+    background-color: #eda3a1;
+}
+.player .time-current, .player .time-duration {
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    font-size: 14px;
+}
+.player .time-current {
+    left: 10px;
+}
+.player .time-duration {
+    right: 10px;
+}
+.player .toggle-full-screen {
+    position: absolute;
+    margin: 0;
+    right: 5px;
+    top: 5px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* videodetail */
+
+.video-data h1 {
+    text-transform: uppercase;
+}
+
+.first-h1ss >  {
+    color: #8ac24b;
+}
+.video-data p {
+    color: #3b5368;
+}

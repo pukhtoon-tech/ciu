@@ -1,0 +1,25 @@
+.bg-dark-left {
+  background-color: #d6d6d6;
+}
+.bg-light-right {
+  background-color: #c4c4c4;
+}
+.font-weight-light-in {
+  font-weight: 500;
+  font-size: 4.5vw;
+}
+.bg-dark-left,
+.bg-light-right {
+  box-shadow: inset 0 50px 40px -20px #9a9a9a;
+}
+
+.share-icon-div {
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #afacac, 0 0 0 15px #b9b7b7;
+}
+
+.fa-share-in {
+  background: #626262;
+  padding: 25px;
+  border-radius: 50%;
+}

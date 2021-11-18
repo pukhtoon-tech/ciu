@@ -1,0 +1,68 @@
+.main-section-people {
+    box-shadow: inset 0 50px 40px -20px #9a9a9a;
+}
+.people-account-text {
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+
+/* peoplelist css */
+
+.remove-btn {
+    background-color: #bdbdbd;
+    color: #000000;
+    border-radius: 25px;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem 1.4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-shadow: 0px -1px 4px rgb(0 0 0 / 40%);
+
+}
+
+.fa-username {
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    padding: 2.25rem;
+}
+.fa-username-manage {
+    padding: 1.25rem;
+}
+.owner-text {
+    font-style: italic;
+}
+.owner-text  , .email-p {
+    font-size: 1.2rem;
+}
+.email-p {
+    color: #817f7f;
+}
+
+.suggest-btn {
+    border-radius: 25px;
+    border: 1px solid #bdbdbd;
+    padding: 0.6rem 1.2rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* add modal */ 
+
+.add-user-text > h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.add-user-text > p {
+    font-size: 1.2rem;
+}
+.add-user-text > p > span {
+    font-weight: 600;
+}
+
+.form-control-app {
+    border-radius: 25px;
+    height: 50px;
+}

@@ -1,0 +1,102 @@
+.app-nav > a {
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+  margin-right: 2rem;
+  color: #1b1b1b !important;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+}
+.navbar-brand-ci {
+  max-width: 125px;
+}
+.app-nav > a.active {
+  color: #4e6475;
+  border-bottom: 4px solid #4e6475;
+  padding-bottom: 3rem;
+}
+/* 
+.navbar-light .app-nav .active>.nav-link, .navbar-light .app-nav .nav-link.active, .navbar-light .app-nav .nav-link.show, .navbar-light .app-nav .show>.nav-link {
+    color: #4e6475;    
+    border-bottom: 4px solid #4e6475;
+    padding-bottom: 3rem;
+} */
+.welcome-text {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #4e6475;
+}
+.welcome-text .span-parent {
+  font-weight: 500;
+}
+
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.bell-fa {
+  font-size: 1.6rem !important;
+  color: #4e6475;
+}
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  width: 20px;
+  /* height: 15px; */
+  background: rgb(235, 87, 87);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+.logout-icon {
+  font-size: 0.8rem;
+  color: #4e6475;
+}
+.logout-icon > i {
+  font-size: 1.6rem;
+}
+.circle-logo {
+  border-radius: 50%;
+}
+
+/* footer.css */
+/* .footer-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  } */
+
+.bg-dark-footer {
+  background-color: #626262;
+}
+
+.social-icons > a > i {
+  padding: 10px;
+  font-size: 1.4rem;
+}
+.font-size-sm {
+  font-size: 0.8rem;
+}
+/* end of footer.css */
+
+@media only screen and (min-device-width: 319px) and (max-device-width: 480px) {
+  .navbar-brand-ci {
+    max-width: 100px;
+  }
+}
